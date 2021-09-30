@@ -82,6 +82,23 @@ main {
   margin-bottom: 0.5em;
 }
 
+
+#containerlogo:hover #logodiv {
+  opacity: 1;
+  transform: rotate(360deg);
+}
+
+#logodiv {
+  background-image: url(./img/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50px;
+  width: 50px;
+  transition: transform .7s ease-in-out;
+}
+
+
+
 .formularioheader {
   /* Sizing */
   /*width: 100vw;*/
