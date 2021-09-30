@@ -97,7 +97,9 @@ main {
   transition: transform .7s ease-in-out;
 }
 
-
+.form-group {
+  padding: 10px;
+}
 
 .formularioheader {
   /* Sizing */
@@ -121,13 +123,28 @@ main {
 
 .formulario {
   /* Sizing */
+  padding: 0;
+  color: rgb(94, 53, 53); /* ADD THIS LINE */
   justify-content: center;
   align-items: center;
   width: 80vw;
   padding: 2rem;
   font-family: 'Kiwi Maru', serif;
-  /*background-color: blanchedalmond;*/
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+
 }
+
+.btn-enviar {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  justify-content: center;
+  width: 80%;
+  margin-left: 3px
+}
+
 
 
 /* .contenido {

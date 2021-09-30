@@ -17,7 +17,10 @@
 <body>
   <div class="container">
     <header>
-      <img src="./img/logo.png" alt="Logo" width="100">
+      <div id="containerlogo">
+        <div id="logodiv"></div>
+           
+      </div>
       <nav>
         <ul>
           <li><a href="index.html">Inicio</a></li>
@@ -35,45 +38,68 @@
         </div>
     </section>
   
-    <section class="formulario"
- 
-    <form class="needs-validation" novalidate>
-        <div class="alert alert-danger d-none">Please review the problems below:</div>
-      
-        <div class="mb-3">
-          <label for="exampleInputName" class="form-label">Name</label>
-          <input type="text" class="form-control" id="exampleInputName" placeholder="Your name" required>
-          <div class="invalid-feedback">Name can't be blank</div>
-          <div class="valid-feedback">Looks good!</div>
-          <div class="form-text">Text input example</div>
+    <section class="formulario">
+    
+      <!-- <form>
+        <div class="form-group row">
+          <label class="col-xs-2  for="nombre">Nombre:</label>
+          
+          <input class="form-control" id="nombre" type="text" name="nombre"/>
         </div>
-      
-        <div class="mb-3">
-          <label for="exampleInputEmail" class="form-label">Email</label>
-          <input type="email" class="form-control" id="exampleInputEmail" placeholder="Enter email" autocomplete="email" required>
-          <div class="invalid-feedback">Email can't be blank</div>
-          <div class="valid-feedback">Looks good!</div>
-          <div class="form-text">We'll never share your email with anyone else.</div>
+        <div class="form-group row">
+          <label for="email">Email:</label>
+          <input class="form-control"  id="email" type="text" name="email"/>
         </div>
-        
-        <div class="mb-3">
-            <label for="exampleInputEmail" class="form-label">Asunto:</label>
-            <input type="email" class="form-control" id="exampleInputEmail" placeholder="Asunto" autocomplete="email" required>
-            <div class="invalid-feedback">Email can't be blank</div>
-            <div class="valid-feedback">Looks good!</div>
-            <div class="form-text">We'll never share your email with anyone else.</div>
+       
+        <div class="form-group row">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Recordarme
+            </label>
           </div>
-  
+        </div>
+       
+        <button type="submit" class="btn btn-default">Enviar</button>
+      </form> -->
 
+      <div class="container"> 
+    <div class="row ">
+        <!-- <div class="col-lg-7 mx-auto"> -->
+          <div class="col-md-12 mx-auto">
+            <!-- <div class="card mt-2 mx-auto p-4 bg-light"> -->
+              <div class="card">
+                <div class="card-body bg-light">
+                    <div class="container">
+                        <form id="contact-form" role="form">
+                            <div class="controls">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group"> <label for="form_name">Firstname *</label> <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required."> </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group"> <label for="form_email">Email *</label> <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required."> </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group"> <label for="form_message">Message *</label> <textarea id="form_message" name="message" class="form-control" placeholder="Write your message here." rows="4" required="required" data-error="Please, leave us a message."></textarea> </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="row text-center" >
+                                  <div class="col-md-12 botonsubmit" > <input type="submit" class="btn btn-success btn-enviar pt-2 btn-block " value="Enviar"> </div>
+                              </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div> <!-- /.8 -->
+        </div> <!-- /.row-->
+    </div>
+   </div>
 
-        <div class="input-group">
-            <span class="input-group-text">With textarea</span>
-            <textarea class="form-control" aria-label="With textarea"></textarea>
-          </div>
-        <center>
-        <button type="submit" class="btn btn-primary">Enviar!</button>
-       </center>
-      </form>
     </section>
 
 
