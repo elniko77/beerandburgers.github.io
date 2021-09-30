@@ -40,13 +40,11 @@ nav li {
 }
 .mainbody {
   display: flex;
-
   justify-content: flex-start;
   align-items: stretch;
 }
 main {
   flex-grow: 1;
-  
   background-color: rgb(10, 40, 52);
 }
 
@@ -65,7 +63,7 @@ main {
   color: white; /* ADD THIS LINE */
   
   /* Background styles */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('img/hero1.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('../img/hero1.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -89,7 +87,7 @@ main {
 }
 
 #logodiv {
-  background-image: url(./img/logo.png);
+  background-image: url(../img/logo.png);
   background-repeat: no-repeat;
   background-size: contain;
   height: 50px;
@@ -156,8 +154,8 @@ main {
 
  .contenido {
   display: flex;
-    
-  padding: 0.5rem;
+  /*costados*/  
+  padding: 0.3rem;
   background-color: blanchedalmond;
   flex-wrap: wrap;
  }
@@ -178,19 +176,20 @@ main {
 
 
  .fabrica {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('img/fabrica.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('../img/fabrica.jpg');
  }
 
  .cervezas {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/cervezas2.jpg');
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/cervezas2.jpg');
  }
 
  .menu {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/menu.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/menu.jpg');
  }
 
  .nosotros {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/nosotros.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/nosotros.jpg');
  }
 
 /* .columnas {
@@ -279,5 +278,18 @@ footer-copy  {
     display: flex;
     
   }
+
+
+  .hero h1 {
+    /* Text styles */
+    font-size: 3em;
+   
+    font-family: 'Kiwi Maru', serif;
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+  
+
 
 }
