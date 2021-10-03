@@ -40,33 +40,9 @@
   
     <section class="formulario">
     
-      <!-- <form>
-        <div class="form-group row">
-          <label class="col-xs-2  for="nombre">Nombre:</label>
-          
-          <input class="form-control" id="nombre" type="text" name="nombre"/>
-        </div>
-        <div class="form-group row">
-          <label for="email">Email:</label>
-          <input class="form-control"  id="email" type="text" name="email"/>
-        </div>
-       
-        <div class="form-group row">
-          <div class="checkbox">
-            <label>
-              <input type="checkbox"> Recordarme
-            </label>
-          </div>
-        </div>
-       
-        <button type="submit" class="btn btn-default">Enviar</button>
-      </form> -->
-
-      <div class="container"> 
+   <div class="container"> 
     <div class="row ">
-        <!-- <div class="col-lg-7 mx-auto"> -->
           <div class="col-md-12 mx-auto">
-            <!-- <div class="card mt-2 mx-auto p-4 bg-light"> -->
               <div class="card">
                 <div class="card-body bg-light">
                     <div class="container">
@@ -74,17 +50,20 @@
                             <div class="controls">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <div class="form-group"> <label for="form_name">Firstname *</label> <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required."> </div>
+                                        <div class="form-group"> <label for="form_nombre">Nombre: *</label> <input id="form_nombre" type="text" name="nombre" class="form-control" placeholder="Por favor ingrese su nombre *" required="required" data-error="El nombre es obligatorio." oninvalid="this.setCustomValidity('Debe ingresar un nombre')"
+                                          oninput="setCustomValidity('')"> </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <div class="form-group"> <label for="form_email">Email *</label> <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required."> </div>
+                                        <div class="form-group"> <label for="form_email">Email *</label> <input id="form_email" type="email" name="email" class="form-control" placeholder="Por favor ingrese su correo *" required="required" data-error="Se necesita un email válido." oninvalid="this.setCustomValidity('Ingrese un correo válido')"
+                                          oninput="setCustomValidity('')"> </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <div class="form-group"> <label for="form_message">Message *</label> <textarea id="form_message" name="message" class="form-control" placeholder="Write your message here." rows="4" required="required" data-error="Please, leave us a message."></textarea> </div>
+                                        <div class="form-group"> <label for="form_comentario">Comentario *</label> <textarea id="form_comentario" name="comentario" class="form-control" placeholder="Escriba sus comentarios acá." rows="4" required="required" data-error="Por favor, déjenos un comentario."oninvalid="this.setCustomValidity('Por favor ingrese un comentario')"
+                                          oninput="setCustomValidity('')"></textarea> </div>
                                     </div>
                                     
                                 </div>

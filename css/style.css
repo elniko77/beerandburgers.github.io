@@ -48,6 +48,12 @@ main {
   background-color: rgb(10, 40, 52);
 }
 
+header a {
+  color: rgb(236, 233, 221);
+  text-decoration: none;
+}
+
+
 .hero {
   /* Sizing */
   /*width: 100vw;*/
@@ -119,6 +125,28 @@ main {
   background-attachment: fixed;
 }
 
+.fotosheader {
+  height: 20vh;
+  background-color: blanchedalmond;
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Kiwi Maru', serif;
+  /* Text styles */
+  text-align: center;
+  color: rgb(218, 147, 81); /* ADD THIS LINE */
+   
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+
+
+}
+
+
 .formulario {
   /* Sizing */
   padding: 0;
@@ -160,6 +188,16 @@ main {
   flex-wrap: wrap;
  }
 
+ .contenidofotos {
+  display: flex;
+  align-items: center;
+  /*costados*/  
+  padding: 0.3rem;
+  background-color: rgb(136, 246, 136);
+  flex-wrap: wrap;
+ }
+
+
 .columnas {
  width: 25vw;
  height: 25vh;
@@ -174,6 +212,24 @@ main {
  font-family: 'Kiwi Maru', serif;
  } 
 
+.galeria {
+    margin: 0.5rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-grow: 1;
+/*    align-items: flex-start;
+    flex-direction: row;*/
+/*    max-height: 100vh;*/
+}
+
+.galeria img {
+    margin: 10px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+    max-width: 489px;
+}
 
  .fabrica {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('../img/fabrica.jpg');
@@ -269,15 +325,21 @@ footer-copy  {
   }
 
   footer {
-    background-color: rgb(184, 58, 58);
+    /*background-color: rgb(184, 58, 58);*/
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
   }
 
   .footer-block {
-    margin-right: 2rem;
+    /*margin-right: 2rem;*/
     display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    padding: 0.5rem;
     
   }
 
