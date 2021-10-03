@@ -57,7 +57,7 @@ header a {
 .hero {
   /* Sizing */
   /*width: 100vw;*/
-  height: 50vh;
+  height: 30vh;
   
   /* Flexbox stuff */
   display: flex;
@@ -78,7 +78,7 @@ header a {
 
 .hero h1 {
   /* Text styles */
-  font-size: 5em;
+  font-size: 4em;
  
   font-family: 'Kiwi Maru', serif;
   /* Margins */
@@ -193,7 +193,8 @@ header a {
   align-items: center;
   /*costados*/  
   padding: 0.3rem;
-  background-color: rgb(136, 246, 136);
+  background-color: blanchedalmond;
+  
   flex-wrap: wrap;
  }
 
