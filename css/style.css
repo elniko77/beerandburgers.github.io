@@ -1,32 +1,35 @@
 body {
-  /*background-color: #303030;*/
   color: #fff;
   padding: 0;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5rem;
 }
+
 a {
   color: #ffa;
 }
+
 .container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
+
 header {
   background-color: rgb(68, 65, 65);
   padding: 0.6rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* font-family: 'EB Garamond', serif; */
   font-family: 'Kiwi Maru', serif;
 
 }
+
 header img {
   width: 100px;
 }
+
 nav ul {
   margin: 0;
   padding: 0;
@@ -34,10 +37,12 @@ nav ul {
   justify-content: flex-end;
   list-style-type: none;
 }
+
 nav li {
   font-size: 1.3rem;
   margin: 0 0.5rem;
 }
+
 .mainbody {
   display: flex;
   justify-content: flex-start;
@@ -55,20 +60,13 @@ header a {
 
 
 .hero {
-  /* Sizing */
-  /*width: 100vw;*/
   height: 30vh;
-  
-  /* Flexbox stuff */
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Kiwi Maru', serif;
-  /* Text styles */
   text-align: center;
-  color: white; /* ADD THIS LINE */
-  
-  /* Background styles */
+  color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('../img/hero1.jpg');
   background-size: cover;
   background-position: center center;
@@ -77,11 +75,8 @@ header a {
 }
 
 .hero h1 {
-  /* Text styles */
   font-size: 4em;
- 
   font-family: 'Kiwi Maru', serif;
-  /* Margins */
   margin-top: 0;
   margin-bottom: 0.5em;
 }
@@ -106,19 +101,14 @@ header a {
 }
 
 .formularioheader {
-  /* Sizing */
-  /*width: 100vw;*/
   height: 20vh;
   background-color: blanchedalmond;
-  /* Flexbox stuff */
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Kiwi Maru', serif;
-  /* Text styles */
   text-align: center;
-  color: rgb(218, 147, 81); /* ADD THIS LINE */
-   
+  color: rgb(218, 147, 81);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -128,26 +118,21 @@ header a {
 .fotosheader {
   height: 20vh;
   background-color: blanchedalmond;
-  /* Flexbox stuff */
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Kiwi Maru', serif;
-  /* Text styles */
   text-align: center;
-  color: rgb(218, 147, 81); /* ADD THIS LINE */
-   
+  color: rgb(218, 147, 81);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-
 .formulario {
-  /* Sizing */
   padding: 0;
-  color: rgb(94, 53, 53); /* ADD THIS LINE */
+  color: rgb(94, 53, 53);
   justify-content: center;
   align-items: center;
   width: 80vw;
@@ -156,7 +141,6 @@ header a {
   max-width: 700px;
   margin: auto;
   display: flex;
-
 }
 
 .btn-enviar {
@@ -168,33 +152,20 @@ header a {
   margin-left: 3px
 }
 
-
-
-/* .contenido {
+.contenido {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: rgb(110, 176, 202);
- } */
-
- .contenido {
-  display: flex;
-  /*costados*/  
   padding: 0.3rem;
   background-color: blanchedalmond;
   flex-wrap: wrap;
  }
 
- .contenidofotos {
+.contenidofotos {
   display: flex;
   align-items: center;
-  /*costados*/  
   padding: 0.3rem;
   background-color: blanchedalmond;
-  
   flex-wrap: wrap;
- }
-
+}
 
 .columnas {
  width: 25vw;
@@ -217,9 +188,6 @@ header a {
     flex-wrap: wrap;
     flex: 1;
     flex-grow: 1;
-/*    align-items: flex-start;
-    flex-direction: row;*/
-/*    max-height: 100vh;*/
 }
 
 .galeria img {
@@ -234,7 +202,6 @@ header a {
  }
 
  .cervezas {
-  
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/cervezas2.jpg');
  }
 
@@ -246,27 +213,21 @@ header a {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/nosotros.jpg');
  }
 
-/* .columnas {
-  flex-grow: 1;
-  flex-direction: row;
-  
-  background-color: rgb(236, 120, 12);
-} */
-
 .nosotrosdiv {
   display: flex;
   align-items: center;
-  /*costados*/  
   padding: 0.3rem;
   background-color: blanchedalmond;
   color: rgb(59, 41, 13);
   flex-wrap: wrap;
  }
 
- 
+
 .nosotrostext-inner:before {
   content: "";  
   float: right;
+  max-width: 50%;
+  margin: 0 0 1rem 1rem;
   background-color: blanchedalmond;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: calc(100% - 30vw - 20px);
@@ -276,9 +237,24 @@ header a {
   }
 } 
 
+.iframemapa {
+  float: right; 
+  clear: right;
+}
 
-
-
+.nosotrostext-inner img {
+  max-width: 100%;
+  border: 10px solid;
+  float: right;
+  max-width: 50%;
+  margin: 0 0 1rem 1rem;
+}
+ 
+.nosotrostext-inner iframe {
+  max-width: 100%;
+  float: center;
+  margin: 0 0 1rem 1rem;
+}
 
 footer {
   background-color: rgb(68, 65, 65);
@@ -287,9 +263,9 @@ footer {
   display: flex;
   font-size: 1.1rem;
   flex-wrap: wrap;
-  /*justify-content: flex-start;*/
   justify-content: space-between;
 }
+
 .footer-block {
   margin-right: 2rem;
   display: flex;
@@ -300,7 +276,6 @@ footer-redes {
   display: flex;
   padding: 1rem;
   flex-direction: row;
-  /*flex-wrap: wrap; */
   justify-content: center;
   background-color: rgb(75, 133, 130);
 }
@@ -312,42 +287,42 @@ footer a {
 
 footer-copy  {
   background-color: rgb(34, 36, 63);
-
   color: #ddd0d0;
   justify-content: center;
   display: flex;
   font-size: 1.1rem;
   }
 
-/* Celular
-@media (max-width: 600px) {
-    .columna1 {
-      width: 25%;
-      height: 100vh;
-    }
-  
-    .container-inner {
-      width: 75%;
-    }
+/* Tablets */
+@media only screen and (max-width: 800px) {
+  .nosotrosdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*costados*/  
+    padding: 0.3rem;
+    background-color: blanchedalmond;
+    color: rgb(59, 41, 13);
+    flex-wrap: wrap;
+   }
+
+  .iframemapa {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    float:none;    
   }
 
 
-  @media (min-width: 800px) {
-    .container {
-      width: 800px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-*/
+}
 
-/* Prueba para ver celulares */
+/* Celulares */
 @media only screen and (max-width: 600px) {
   main {
     background-color: lightblue;
   }
 
   footer {
-    /*background-color: rgb(184, 58, 58);*/
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -357,25 +332,27 @@ footer-copy  {
   }
 
   .footer-block {
-    /*margin-right: 2rem;*/
     display: flex;
-    /*flex-direction: column;*/
     justify-content: center;
     padding: 0.5rem;
-    
   }
 
-
   .hero h1 {
-    /* Text styles */
     font-size: 3em;
-   
     font-family: 'Kiwi Maru', serif;
-    /* Margins */
     margin-top: 0;
     margin-bottom: 0.5em;
   }
+ 
+  .nosotrostext-inner iframe {
+    max-width: 100%;
+    float: center;
+    margin: 0 0 1rem 1rem;
+  }
   
-
+  .iframemapa {
+    justify-content: center;
+    float:none;    
+  }
 
 }
