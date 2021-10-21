@@ -141,9 +141,6 @@ header a {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
-
-
 }
 
 
@@ -256,6 +253,32 @@ header a {
   background-color: rgb(236, 120, 12);
 } */
 
+.nosotrosdiv {
+  display: flex;
+  align-items: center;
+  /*costados*/  
+  padding: 0.3rem;
+  background-color: blanchedalmond;
+  color: rgb(59, 41, 13);
+  flex-wrap: wrap;
+ }
+
+ 
+.nosotrostext-inner:before {
+  content: "";  
+  float: right;
+  background-color: blanchedalmond;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: calc(100% - 30vw - 20px);
+  color: rgb(59, 41, 13);
+  @media (min-width: 1200px) {
+    height: calc(100% - 400px - 20px);
+  }
+} 
+
+
+
+
 
 footer {
   background-color: rgb(68, 65, 65);
@@ -286,8 +309,6 @@ footer a {
   color: rgb(236, 233, 221);
   text-decoration: none;
 }
-
-
 
 footer-copy  {
   background-color: rgb(34, 36, 63);
