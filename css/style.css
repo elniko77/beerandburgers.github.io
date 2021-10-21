@@ -10,6 +10,10 @@ a {
   color: #ffa;
 }
 
+a:hover {
+  color:rgb(145, 78, 2);
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -131,16 +135,31 @@ header a {
 }
 
 .formulario {
-  padding: 0;
+  /* padding: 0; */
   color: rgb(94, 53, 53);
+  background-color: blanchedalmond;
   justify-content: center;
   align-items: center;
-  width: 80vw;
+  /*width: 80vw;*/
   padding: 2rem;
   font-family: 'Kiwi Maru', serif;
-  max-width: 700px;
+  /* max-width: 700px; */
   margin: auto;
   display: flex;
+}
+
+.formulariocontenido {
+    /* padding: 0; */
+    color: rgb(94, 53, 53);
+    background-color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    padding: 2rem;
+    font-family: 'Kiwi Maru', serif;
+     max-width: 700px; 
+    margin: auto;
+    display: flex;
 }
 
 .btn-enviar {
@@ -166,6 +185,17 @@ header a {
   background-color: blanchedalmond;
   flex-wrap: wrap;
 }
+
+/* .contenidocontacto {
+  display: flex;
+  align-items: center;
+  padding: 0.3rem;
+  background-color: blanchedalmond;
+  flex-wrap: wrap;
+} */
+
+
+
 
 .columnas {
  width: 25vw;
