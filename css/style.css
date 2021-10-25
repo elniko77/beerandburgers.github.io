@@ -324,7 +324,7 @@ footer-copy  {
   }
 
 /* Tablets */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1025px) {
   .nosotrosdiv {
     display: flex;
     align-items: center;
@@ -343,6 +343,37 @@ footer-copy  {
     float:none;    
   }
 
+/*-------------------------------------*/
+
+
+.contenidofotos {
+  display: flex;
+  align-items: center;
+  padding: 0.3rem;
+  background-color: blanchedalmond;
+  flex-wrap: wrap;
+}
+
+
+.galeria {
+  margin: 0.5rem;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.galeria img {
+  margin: 10px;
+  border: 3px solid #000;
+  box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+  max-width: 90vw;
+}
+
+/*-------------------------------------*/
+
+
 
 }
 
@@ -351,6 +382,71 @@ footer-copy  {
   main {
     background-color: lightblue;
   }
+
+  .form-group {
+    padding: 2px;
+  }
+
+
+  .formulario {
+    /* padding: 0; */
+    color: rgb(94, 53, 53);
+    background-color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
+    /*width: 80vw;*/
+    padding: 2px;
+    font-family: 'Kiwi Maru', serif;
+    /* max-width: 700px; */
+    margin: auto;
+    display: flex;
+  }
+  
+  .formulariocontenido {
+      /* padding: 0; */
+      color: rgb(94, 53, 53);
+      background-color: blanchedalmond;
+      justify-content: center;
+      align-items: center;
+      width: 95vw;
+      padding: 2px;
+      font-family: 'Kiwi Maru', serif;
+       max-width: 700px; 
+      margin: auto;
+      display: flex;
+  }
+  
+  /*-------------------------------------*/
+
+
+  .contenidofotos {
+    display: flex;
+    align-items: center;
+    background-color: blanchedalmond;
+    flex-wrap: nowrap;
+  }
+  
+
+  .galeria {
+    /*margin: 0.1rem;*/
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-grow: 1;
+  }
+
+  .galeria img {
+    margin: 0px;
+    border: 1px solid #000;
+    /*box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); */
+    max-width: 100%;
+  }
+
+
+  /*-------------------------------------*/
+
 
   footer {
     display: flex;
