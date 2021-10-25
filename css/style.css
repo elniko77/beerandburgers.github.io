@@ -63,6 +63,14 @@ header a {
 }
 
 
+.menulista {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+
+
 .hero {
   height: 30vh;
   display: flex;
@@ -381,6 +389,34 @@ footer-copy  {
 @media only screen and (max-width: 600px) {
   main {
     background-color: lightblue;
+  }
+
+/* ------------- */
+
+  /* .menulista {
+    flex-direction: column;
+    flex: 2;
+  }*/
+
+  nav ul {
+    flex-direction: column;
+ 
+  }
+
+   nav li {
+    /*margin: 0.8em 0;*/
+    justify-content: right;
+    align-content: right;
+   
+  } 
+
+ 
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-content: right;
+    flex: 2; 
   }
 
   .form-group {
